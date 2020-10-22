@@ -272,7 +272,7 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 				h1{font-size: 5vw; color: #fff; @include second-font; color:$color-light; margin-bottom: 20px;
 					span{display: inline-block; position: relative;
 						&:before{content: ""; width: 247px; height: 70px; position: absolute; left: 0; top: 40px; background: url(../images/title-mark.png) center no-repeat; background-size: contain; z-index: -1;}}}
-				h2{font-weight: 600; color: #fff; margin-bottom: 50px;}
+				h2{font-size: 4vw; font-weight: 600; color: #fff; margin-bottom: 50px;}
 				a{ height: 60px; line-height: 56px; float: left; color: #fff; font-size: 14px; font-weight: 600; padding-bottom: 10px; position: relative; border: 2px solid $color-light; padding: 0 40px; box-shadow: 0 0 20px rgba(235,207,167,0.4); @include transition;
 					i{margin-left: 10px;}
 					&:hover{text-decoration: none; background: $color-brown; border-color:$color-brown;}}

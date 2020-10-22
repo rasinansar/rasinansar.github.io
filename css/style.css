@@ -940,6 +940,7 @@ button[type=submit] {
   z-index: -1;
 }
 .slider .slider-container .swiper-slide .container h2 {
+  font-size: 4vw;
   font-weight: 600;
   color: #fff;
   margin-bottom: 50px;
