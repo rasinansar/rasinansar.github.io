@@ -269,10 +269,10 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 		.swiper-slide{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-content: center; background-size: auto 120%;
 			&:after{content: ""; width: 100%; height: 100%; position: absolute; left: 0; top: 0; @include gradient-bg; opacity: 0.65;}
 			.container{position: relative; z-index: 9; padding-left: 100px;
-				h1{font-size: 5vw; color: #fff; @include second-font; color:$color-light; margin-bottom: 20px;
+				h1{font-size: 3vw; color: #fff; @include second-font; color:$color-light; margin-bottom: 10px;
 					span{display: inline-block; position: relative;
 						&:before{content: ""; width: 247px; height: 70px; position: absolute; left: 0; top: 40px; background: url(../images/title-mark.png) center no-repeat; background-size: contain; z-index: -1;}}}
-				h2{font-size: 4vw; font-weight: 600; color: #fff; margin-bottom: 50px;}
+				h2{text-transform: uppercase; font-size: 1.5vw; font-weight: 400; color: #fff; margin-bottom: 50px;}
 				a{ height: 60px; line-height: 56px; float: left; color: #fff; font-size: 14px; font-weight: 600; padding-bottom: 10px; position: relative; border: 2px solid $color-light; padding: 0 40px; box-shadow: 0 0 20px rgba(235,207,167,0.4); @include transition;
 					i{margin-left: 10px;}
 					&:hover{text-decoration: none; background: $color-brown; border-color:$color-brown;}}

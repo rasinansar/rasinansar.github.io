@@ -918,11 +918,11 @@ button[type=submit] {
   padding-left: 100px;
 }
 .slider .slider-container .swiper-slide .container h1 {
-  font-size: 5vw;
+  font-size: 3vw;
   color: #fff;
   font-family: "Playfair Display", serif;
   color: #ebcfa7;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .slider .slider-container .swiper-slide .container h1 span {
   display: inline-block;
@@ -940,8 +940,10 @@ button[type=submit] {
   z-index: -1;
 }
 .slider .slider-container .swiper-slide .container h2 {
-  font-size: 4vw;
-  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.25vw;
+  font-weight: 400;
+  letter-spacing: 2px;
   color: #fff;
   margin-bottom: 50px;
 }
@@ -1397,7 +1399,7 @@ button[type=submit] {
 .recent-gallery h3 {
   font-weight: 600;
   padding-right: 40%;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 .recent-gallery .link {
   display: inline-block;
@@ -1435,6 +1437,13 @@ button[type=submit] {
   margin: 0;
   position: relative;
 }
+
+.recent-gallery .odometer {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 800;
+}
+
 .recent-gallery .col-md-4:nth-child(1) {
   margin-top: 100px;
 }
